@@ -1,6 +1,6 @@
 {
   "name": "@zs-repo/react-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Router wrapper.",
   "keywords": [
     "framework",
@@ -8,13 +8,17 @@
     "react-router",
     "cache-router"
   ],
-  "author": "vv78",
+  "author": "vw78",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vw78/active-router"
+  },
   "scripts": {
     "build": "npm run clean && npm run compile",
     "build.watch": "npm run compile -- --watch",
